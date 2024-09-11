@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Applied Nutrition", "route": "applied-nutrition" },
+    { "id": 2, "name": "Nutrex", "route": "nutrex" },
+    { "id": 3, "name": "Evogen", "route": "evogen" },
+    { "id": 4, "name": "Optimum Nutrition", "route": "optimum-nutrition" },
+    { "id": 5, "name": "Cellucor", "route": "cellucor" },
+    { "id": 6, "name": "BSN", "route": "bsn" },
+    { "id": 7, "name": "Dymatize", "route": "dymatize" },
+    { "id": 8, "name": "MuscleTech", "route": "muscletech" },
+    { "id": 9, "name": "Universal Nutrition", "route": "universal-nutrition" },
+    { "id": 10, "name": "Gaspari Nutrition", "route": "gaspari-nutrition" }
+]

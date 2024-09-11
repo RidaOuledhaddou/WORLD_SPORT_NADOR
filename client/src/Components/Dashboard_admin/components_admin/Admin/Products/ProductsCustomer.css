@@ -1,0 +1,88 @@
+/* .Products{
+    background: linear-gradient(106.37deg,
+      #ff94dfc5 29.63% ,
+      #fec5c7 51.55%,
+      #f3c6f1 90.85%);
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.ProductsGlass{
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: var(--glass);
+    overflow: hidden;
+    grid-template-columns: 11rem auto 20rem;
+    gap: 15px;
+} */
+
+
+.Products {
+  background: linear-gradient(106.37deg, #ff94dfc5 29.63%, #fec5c7 51.55%, #f3c6f1 90.85%);
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-family: 'Inter', sans-serif;
+}
+
+.ProductsGlass {
+  display: grid;
+  height: 97%;
+  width: 97%;
+  border-radius: 2rem;
+  background-color: var(--glass);
+  overflow: hidden;
+  padding: 2rem; /* Give some space inside the glass */
+  grid-template-columns: 1fr; /* Makes it responsive */
+  place-items: center; /* Center the content of grid */
+}
+
+.TableContainer {
+  box-shadow: 0px 13px 20px 0px #80808029;
+  max-width: 90vw; /* Limit the width of the table container */
+  margin: auto; /* Center the table container horizontally */
+}
+
+.MuiTableRow-root>* {
+  padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head>* {
+  font-weight: bold !important;
+}
+
+.Table td, .Table th {
+  border: none !important;
+}
+
+.status {
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.Details {
+  color: #00b5ff !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .TableContainer {
+    width: 100%; /* Adjust width for medium screens */
+}
+}
+
+@media screen and (max-width: 699px) {
+  .ProductsGlass {
+    grid-template-columns: 1fr;
+  }
+
+.TableContainer {
+    width: 100%; /* Full width on small screens */
+    overflow-x: auto; /* Allows scrolling horizontally */
+}
+}

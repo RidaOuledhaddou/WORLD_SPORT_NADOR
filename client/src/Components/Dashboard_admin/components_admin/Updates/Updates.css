@@ -1,0 +1,31 @@
+.Updates{
+    width: 90%;
+    background: white;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 12px;
+    display: flex;
+}
+
+.update{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.update>img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.flex{
+    display: flex;
+}
+
+.noti>span{
+    font-weight: 900;
+    font-family: 'Snell Roundhand, cursive';
+    font-style: oblique;
+}

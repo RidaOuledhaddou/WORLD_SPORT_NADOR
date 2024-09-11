@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.orders-list {
+    margin-top: 20px;
+}
+
+.order-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.order-details h3 {
+    margin: 0;
+}
+
+.order-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-details ul li {
+    margin: 5px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bg-red {
+    background-color: #ff4d4f;
+    color: white;
+}
+
+.bg-red:hover {
+    background-color: #e63946;
+}

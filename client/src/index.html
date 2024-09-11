@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Sportt</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <style>
+    .loading-pane {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .loader {
+      font-size: 3rem;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .main-img {
+      max-height: 400px;
+      /* Set a fixed height */
+      width: 100%;
+      /* Ensure it takes the full width */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      /* Hide overflow */
+      background-color: #f0f0f0;
+      /* Optional: Set a background color */
+    }
+
+    .main-img img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      /* Ensure the image covers the container */
+    }
+    /* ***************** */
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="./App.jsx"></script>
+</body>
+
+</html>

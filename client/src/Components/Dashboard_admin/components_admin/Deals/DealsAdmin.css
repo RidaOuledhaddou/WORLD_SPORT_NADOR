@@ -1,0 +1,33 @@
+.Deals {
+  background: linear-gradient(135deg, #ff94df 30%, #fec5c7 50%, #f3c6f1 90%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.DealsGlass {
+  width: 90%;
+  max-width: 600px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.deal-form {
+  width: 100%;
+}
+
+.MuiTextField-root {
+  margin-bottom: 1.5rem;
+}
+
+.MuiButton-contained {
+  margin-top: 1rem;
+}
+
+.Alert {
+  margin-top: 1rem;
+}
