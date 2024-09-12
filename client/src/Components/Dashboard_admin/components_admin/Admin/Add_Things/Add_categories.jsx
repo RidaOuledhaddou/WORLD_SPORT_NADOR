@@ -15,7 +15,7 @@ const Add_categories = () => {
             navigate('/login_Admin');
         } else {
             setIsAuthenticated(true);
-            info_category(token); // Fetch categories only if authenticated
+            info_category(token); // Fetch all categories only if authenticated
         }
     }, [navigate]);
 
