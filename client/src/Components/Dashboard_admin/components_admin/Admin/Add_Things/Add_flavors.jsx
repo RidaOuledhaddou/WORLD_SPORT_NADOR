@@ -15,7 +15,7 @@ const AddFlavors = () => {
             navigate('/login_Admin');
         } else {
             setIsAuthenticated(true);
-            info_flavor(token); // Fetch flavors only if authenticated
+            info_flavor(token); // Fetch all flavors only if authenticated
         }
     }, [navigate]);
 
