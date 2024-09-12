@@ -6,7 +6,7 @@ const Cards = ({ cardsData }) => {
   return (
     <div className="Cards">
       {cardsData.map((card, id) => (
-        <div key={id} className="parentContainer">
+        <div key={id} className="parentContainer"> // Card 
           <Card
             title={card.title}
             color={card.color}
