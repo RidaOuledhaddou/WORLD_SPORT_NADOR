@@ -27,11 +27,12 @@ The project follows a **client-server architecture** with a **React** frontend a
 
 ## 🖼️ Screenshots
 
-![User Interface](![Capture d’écran_14-9-2024_12244_localhost](https://github.com/user-attachments/assets/161f6f01-09ca-4c76-8ccd-778555e08ef1)
-)  
+(![Capture d’écran_14-9-2024_12244_localhost](https://github.com/user-attachments/assets/161f6f01-09ca-4c76-8ccd-778555e08ef1)
+  
 *Responsive user interface of World Sport Nador.*
 
-![Admin Dashboard](path_to_image_2)  
+(![Capture d’écran_14-9-2024_12346_localhost](https://github.com/user-attachments/assets/45e35c8d-d45f-4784-8015-9d855f3666ba)
+)  
 *Admin dashboard showcasing order management, product control, and visitor stats.*
 
 ---
@@ -98,8 +99,10 @@ Working on this project has greatly enhanced my skills in full-stack development
 
 ## 📸 More Images
 
-![Image Description 1](path_to_image_3)  
-![Image Description 2](path_to_image_4)
+(![Capture d’écran_14-9-2024_12321_localhost](https://github.com/user-attachments/assets/5235dfd1-a6a1-4712-a236-a49420138f9f)
+)  
+(![Capture d’écran_14-9-2024_12433_localhost](https://github.com/user-attachments/assets/51d24354-0af3-4bd4-9fc5-5afd5aaecbe4)
+)
 
 ---
 
@@ -107,4 +110,4 @@ Working on this project has greatly enhanced my skills in full-stack development
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/YourUsername/WorldSportNador.git
+   git clone https://github.com/RidaOuledhaddou/World_Sport_Nador.git
