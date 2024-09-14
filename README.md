@@ -27,7 +27,8 @@ The project follows a **client-server architecture** with a **React** frontend a
 
 ## 🖼️ Screenshots
 
-![User Interface](path_to_image_1)  
+![User Interface](![Capture d’écran_14-9-2024_12244_localhost](https://github.com/user-attachments/assets/161f6f01-09ca-4c76-8ccd-778555e08ef1)
+)  
 *Responsive user interface of World Sport Nador.*
 
 ![Admin Dashboard](path_to_image_2)  
