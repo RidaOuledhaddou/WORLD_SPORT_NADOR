@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
-import goalImg1 from '../../assets/images/products/product-1.jpeg'; // temporary image
+import goalImg1 from '../../assets/images/products/product-1.jpeg'; // temporary image ;
 
 export default function Card({ product }) {
     const { handleAddToCart } = useCart();
