@@ -4,6 +4,8 @@ import { useCart } from '../../context/CartContext';
 
 import './Navbar.css';
 
+// NAVBAR CSS 
+
 export default function Navbar() {
   const [menuActive, setMenuActive] = useState(false);
   const [search, setSearch] = useState('');
