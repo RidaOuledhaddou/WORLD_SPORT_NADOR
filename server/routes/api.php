@@ -6,7 +6,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
-// Created by Reda , this is admin 
+// Created by Reda , this is admin  
 
 Route::get('auth/google', [ClientController::class, 'redirectToGoogle']);
 Route::get('/Signin_user/google', [ClientController::class, 'handleGoogleCallback']);
@@ -57,11 +57,6 @@ Route::get('/daily-visits', [ClientController::class, 'getDailyVisits']);
 Route::post('/login', [AdminController::class, 'login']);
 
 
-
-
-
-
-// Created By Salah this is client  
 Route::get('/product/{id}', [ProductController::class, 'getProductByIdUpdate']);
 Route::get('/products/featured-products', [ProductController::class, 'getHomeProduct']);
 Route::get('/products/{category}', [ProductController::class, 'getProductsByCategory']);
